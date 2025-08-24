@@ -1,0 +1,88 @@
+
+# make sxhkd reload its configuration files:
+super + Escape
+	pkill -USR1 -x sxhkd
+
+
+
+
+
+################################################################
+################################################################
+####   ATAJOS DE TECLADO ADICIONALES                       #####
+
+# lanzar aplicaciones con rofi
+
+#  menu rofi con iconos
+super + alt + d
+        rofi -show-icons -show drun -theme $HOME/.config/rofi/themes/rounded-blue-dark
+
+super + alt + r
+        rofi -show-icons -show drun -theme $HOME/.config/rofi/themes/rounded-blue-dark
+
+
+# ver las ventanas que estan abiertas
+# similar a la clasica alt + tab
+super + alt + Tab
+      rofi -show-icons -show window -theme $HOME/.config/rofi/themes/rounded-blue-dark
+
+# salir - reiniciar apagar con wlogout
+# super + shift + x
+#       wlogout
+
+# salir - reiniciar apagar con script de rofi
+super + shift + x
+      ~/.config/rofi/powermenu-total.sh
+
+# tomar pantallazo con xfce-screenshooter
+
+super + Print
+     xfce4-screenshooter
+
+
+# Abrir terminator
+
+super + alt + Return
+     terminator
+
+
+
+# atajos multimedia
+
+
+
+# subir volumen
+XF86AudioRaiseVolume
+      wpctl set-volume @DEFAULT_AUDIO_SINK@ 5%+ -l 1.0
+#      amixer set Master 10%+
+
+# bajar volumen
+XF86AudioLowerVolume
+      wpctl set-volume @DEFAULT_AUDIO_SINK@ 5%- -l 1.0
+#      amixer set Master 10%-
+
+# silencio  mute
+XF86AudioMute
+      wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle
+#      amixer -D pulse set Master 1+ toggle
+
+
+
+# play musica
+XF86AudioPlay
+      playerctl play-pause
+
+# next - siguiente cancion
+XF86AudioNext
+      playerctl next
+
+
+# previous - cancion anterior
+XF86AudioPrev
+      playerctl previous
+
+#  Audio stop
+XF86AudioStop
+      playerctl stop
+
+
