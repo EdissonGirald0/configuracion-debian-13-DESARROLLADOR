@@ -1,6 +1,49 @@
 # 🚀 DWM-Qtile Sistema de Desarrollo Integrado
 
-## 📋 Descripción
+### 🐳 DevOps & Containers
+[![Docker](https://img.shields.io/badge/Docker-20.10+-2496ED?logo=docker&logoColor=white)](https://www.docker.com/)
+[![Docker```
+dwm-qtile-system/
+├── 📖 README.md                           # Este archivo - Entrada principal
+├── 🏗️ ARQUITECTURA.md                    # Documentación de la arquitectura
+│
+├── 📚 docs/                              # Documentación completa
+│   ├── SISTEMA_INTEGRADO.md              # Guía principal (⭐ PRINCIPAL)
+│   ├── QUICKSTART.md                     # Instalación rápida
+│   ├── INDEX.md                          # Navegación completa
+│   └── ... (más documentación)
+│
+├── 🔧 scripts/                           # Scripts del sistema
+│   ├── master-dev.sh                     # Script coordinador principal
+│   ├── core/                            # Scripts principales integrados
+│   └── legacy/                          # Scripts originales (archivados)
+│
+├── ⚙️ config/                            # Configuraciones del sistema
+└── 🎨 assets/                            # Recursos (imágenes, etc.)
+```mg.shields.io/badge/Docker_Compose-2.20+-2496ED?logo=docker&logoColor=white)](https://docs.docker.com/compose/)
+[![VS Code](https://img.shields.io/badge/VS_Code-Remote_Containers-007ACC?logo=visualstudiocode&logoColor=white)](https://code.visualstudio.com/)
+
+### 🛠️ Herramientas de Desarrollo
+[![Git](https://img.shields.io/badge/Git-2.40+-F05032?logo=git&logoColor=white)](https://git-scm.com/)
+[![Vim](https://img.shields.io/badge/Vim-Neovim-019733?logo=vim&logoColor=white)](https://neovim.io/)
+[![Zsh](https://img.shields.io/badge/Zsh-Oh_My_Zsh-1A2C34?logo=gnubash&logoColor=white)](https://ohmyz.sh/)
+[![Tmux](https://img.shields.io/badge/Tmux-3.3+-1BB91F?logo=tmux&logoColor=white)](https://github.com/tmux/tmux)
+
+### �️ Sistema & WM
+[![Debian](https://img.shields.io/badge/Debian-13_Trixie-A81D33?logo=debian&logoColor=white)](https://www.debian.org/)
+[![DWM](https://img.shields.io/badge/DWM-Suckless-1793D1?logo=linux&logoColor=white)](https://dwm.suckless.org/)
+[![Qtile](https://img.shields.io/badge/Qtile-Python_WM-306998?logo=python&logoColor=white)](http://www.qtile.org/)
+[![Alacritty](https://img.shields.io/badge/Alacritty-Terminal-F46800?logo=alacritty&logoColor=white)](https://alacritty.org/)
+
+### 📋 Stacks Disponibles
+- **Python**: Django, Flask, FastAPI + PostgreSQL/MongoDB/Redis
+- **Node.js**: React, Next.js, Vue.js + herramientas modernas  
+- **Java**: Spring Boot + Maven/Gradle + OpenJDK 17+
+- **Go**: Gin, Echo, Fiber + toolchain completo
+- **Bases de datos**: PostgreSQL, MongoDB, Redis con interfaces web
+- **DevOps**: Docker, Docker Compose, VS Code Remote Containers
+- **Herramientas**: Git, Vim/Neovim, Zsh + Oh My Zsh, Tmux
+- **Sistema**: DWM + Qtile, Alacritty, configuraciones optimizadas📋 Descripción
 
 **Sistema de desarrollo completamente integrado** que combina DWM/Qtile con un entorno de desarrollo containerizado profesional para **Debian Trixie**. Este proyecto ha evolucionado de una configuración básica a un **sistema completo de desarrollo** con scripts coordinados.
 
@@ -18,10 +61,15 @@ Todos los scripts han sido mejorados para trabajar de manera coordinada, proporc
 ## 🎯 Características Principales
 
 ### 🐍 Python Stack
+[![Debian](https://img.shields.io/badge/Debian-Trixie-A81D33?logo=debian&logoColor=white)](https://www.debian.org/)
+[![DWM](https://img.shields.io/badge/DWM-6.4-1793D1?logo=linux&logoColor=white)](https://dwm.suckless.org/)
 [![Python](https://img.shields.io/badge/Python-3.11+-3776AB?logo=python&logoColor=white)](https://www.python.org/)
 [![Django](https://img.shields.io/badge/Django-4.2-092E20?logo=django&logoColor=white)](https://www.djangoproject.com/)
 [![Flask](https://img.shields.io/badge/Flask-2.3-000000?logo=flask&logoColor=white)](https://flask.palletsprojects.com/)
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.110-009688?logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com/)
+[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-15-4169E1?logo=postgresql&logoColor=white)](https://www.postgresql.org/)
+[![MongoDB](https://img.shields.io/badge/MongoDB-6.0-47A248?logo=mongodb&logoColor=white)](https://www.mongodb.com/)
+[![Redis](https://img.shields.io/badge/Redis-7.0-DC382D?logo=redis&logoColor=white)](https://redis.io/)
 
 ### 🟩 Node.js Stack
 [![Node.js](https://img.shields.io/badge/Node.js-18+-339933?logo=node.js&logoColor=white)](https://nodejs.org/)
@@ -41,12 +89,7 @@ Todos los scripts han sido mejorados para trabajar de manera coordinada, proporc
 [![Echo](https://img.shields.io/badge/Echo-4.9-132D46?logo=go&logoColor=white)](https://echo.labstack.com/)
 [![Fiber](https://img.shields.io/badge/Fiber-2.49-2C8EBB?logo=go&logoColor=white)](https://gofiber.io/)
 
-### 💾 Bases de Datos
-[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-15-4169E1?logo=postgresql&logoColor=white)](https://www.postgresql.org/)
-[![MongoDB](https://img.shields.io/badge/MongoDB-6.0-47A248?logo=mongodb&logoColor=white)](https://www.mongodb.com/)
-[![Redis](https://img.shields.io/badge/Redis-7.0-DC382D?logo=redis&logoColor=white)](https://redis.io/)
-
-### 🐳 DevOps & Containers
+### � DevOps & Containers
 [![Docker](https://img.shields.io/badge/Docker-20.10+-2496ED?logo=docker&logoColor=white)](https://www.docker.com/)
 [![Docker Compose](https://img.shields.io/badge/Docker_Compose-2.20+-2496ED?logo=docker&logoColor=white)](https://docs.docker.com/compose/)
 [![VS Code](https://img.shields.io/badge/VS_Code-Remote_Containers-007ACC?logo=visualstudiocode&logoColor=white)](https://code.visualstudio.com/)
@@ -63,15 +106,12 @@ Todos los scripts han sido mejorados para trabajar de manera coordinada, proporc
 [![Qtile](https://img.shields.io/badge/Qtile-Python_WM-306998?logo=python&logoColor=white)](http://www.qtile.org/)
 [![Alacritty](https://img.shields.io/badge/Alacritty-Terminal-F46800?logo=alacritty&logoColor=white)](https://alacritty.org/)
 
-### 📋 Stacks Disponibles
+### �📋 Stacks Disponibles
 - **Python**: Django, Flask, FastAPI + PostgreSQL/MongoDB/Redis
-- **Node.js**: React, Next.js, Vue.js + herramientas modernas  
+- **Node.js**: React, Next.js, Vue.js + herramientas modernas
 - **Java**: Spring Boot + Maven/Gradle + OpenJDK 17+
 - **Go**: Gin, Echo, Fiber + toolchain completo
-- **Bases de datos**: PostgreSQL, MongoDB, Redis con interfaces web
-- **DevOps**: Docker, Docker Compose, VS Code Remote Containers
-- **Herramientas**: Git, Vim/Neovim, Zsh + Oh My Zsh, Tmux
-- **Sistema**: DWM + Qtile, Alacritty, configuraciones optimizadas
+- **Bases de datos**: Stack completo con interfaces web
 
 ### 🛠️ Herramientas Avanzadas
 - **Creación inteligente** de proyectos con templates predefinidos
@@ -92,12 +132,6 @@ Todos los scripts han sido mejorados para trabajar de manera coordinada, proporc
 | **[`docs/SISTEMA_INTEGRADO.md`](./docs/SISTEMA_INTEGRADO.md)** | **📖 Guía principal del sistema integrado** | **Principal** | **⭐ START HERE** |
 | [`ARQUITECTURA.md`](./ARQUITECTURA.md) | **🏗️ Arquitectura y estructura del proyecto** | **Técnico** | **Para desarrolladores** |
 | [`docs/QUICKSTART.md`](./docs/QUICKSTART.md) | Instalación rápida en 5 minutos | Básico | Para empezar |
-| [`docs/INDEX.md`](./docs/INDEX.md) | Navegación completa | Índice | Referencia |
-| [`docs/README_CONTAINERS.md`](./docs/README_CONTAINERS.md) | Guía de contenedores | Técnico | DevOps |
-| [`docs/README_DEVELOPER.md`](./docs/README_DEVELOPER.md) | Guía para desarrolladores | Avanzado | Desarrolladores |
-| [`docs/RESUMEN_INTEGRACION.md`](./docs/RESUMEN_INTEGRACION.md) | Resumen de integración | Técnico | Arquitectos |
-| [`docs/TROUBLESHOOTING.md`](./docs/TROUBLESHOOTING.md) | Solución de problemas | Soporte | Cuando hay errores |
-| [`docs/USO_SEGURO.md`](./docs/USO_SEGURO.md) | Guía de seguridad | Importante | Todos |
 
 ### 🚀 Instalación Rápida
 ```bash
@@ -187,40 +221,19 @@ dwm-qtile-system/
 ├── 📖 README.md                           # Este archivo - Entrada principal
 ├── 🏗️ ARQUITECTURA.md                    # Documentación de la arquitectura
 │
-├── 📚 docs/                              # Documentación completa
+├── � docs/                              # Documentación completa
 │   ├── SISTEMA_INTEGRADO.md              # Guía principal (⭐ PRINCIPAL)
 │   ├── QUICKSTART.md                     # Instalación rápida
 │   ├── INDEX.md                          # Navegación completa
-│   ├── README_CONTAINERS.md              # Guía de contenedores
-│   ├── README_DEVELOPER.md               # Guía para desarrolladores
-│   ├── RESUMEN_INTEGRACION.md            # Resumen de integración
-│   ├── TROUBLESHOOTING.md                # Solución de problemas
-│   └── USO_SEGURO.md                     # Guía de seguridad
+│   └── ... (más documentación)
 │
 ├── 🔧 scripts/                           # Scripts del sistema
 │   ├── master-dev.sh                     # Script coordinador principal
 │   ├── core/                            # Scripts principales integrados
-│   │   ├── 01-install-developer.sh      # Instalación completa
-│   │   ├── 03-config-dev-tools.sh       # Configuración herramientas
-│   │   ├── dev-manager.sh               # Gestión contenedores
-│   │   └── setup-dev-containers.sh      # Setup contenedores
 │   └── legacy/                          # Scripts originales (archivados)
-│       ├── 01-install-full.sh           # Script original completo
-│       └── 02-install-interactiva.sh    # Script original interactivo
 │
 ├── ⚙️ config/                            # Configuraciones del sistema
-│   └── usr/                             # Configuraciones de usuario
-│       ├── local/bin/                   # Binarios locales
-│       │   └── powermenu-total          # Menu de energia
-│       └── share/xsessions/             # Sesiones X11
-│           └── dwm.desktop              # Entrada DWM
-│
 └── 🎨 assets/                            # Recursos (imágenes, etc.)
-    └── imagenes/                        # Imágenes del proyecto
-        ├── 00-trixie.png               # Logo Debian Trixie
-        ├── 01-qtile.png                # Logo Qtile
-        ├── 02-dwm.png                  # Logo DWM
-        └── debian-bg.png               # Fondo Debian
 ```
 
 **📚 Para detalles completos**: [`ARQUITECTURA.md`](./ARQUITECTURA.md)
@@ -426,9 +439,6 @@ flowchart TD
 ### 📖 Documentación Completa
 - **Lee [`SISTEMA_INTEGRADO.md`](./SISTEMA_INTEGRADO.md)** para documentación completa
 - **Consulta [`TROUBLESHOOTING.md`](./TROUBLESHOOTING.md)** para problemas específicos
-- **Revisa [`USO_SEGURO.md`](./USO_SEGURO.md)** para prácticas de seguridad
-- **Ve [`README_CONTAINERS.md`](./docs/README_CONTAINERS.md)** para contenedores
-- **Mira [`README_DEVELOPER.md`](./docs/README_DEVELOPER.md)** para desarrollo
 
 ### 🔧 Auto-Diagnóstico
 ```bash
@@ -436,24 +446,21 @@ master-dev repair                    # Reparación automática
 master-dev logs system               # Ver logs detallados
 ```
 
-### 🔑 Componentes Clave del Sistema
-- **Configuración centralizada** y logging unificado  
-- **Herramientas avanzadas** con templates inteligentes
-- **Monitoreo y verificación** automatizados
-- **Workflows profesionales** para desarrollo
-- **Gestión de contenedores** con Docker y VS Code Remote
-- **Window managers** DWM y Qtile configurados
-- **Terminal setup** con Alacritty, Zsh y Tmux
-- **Development tools** completos para múltiples lenguajes
+---
+- Configuración centralizada y logging unificado  
+- Herramientas avanzadas con templates inteligentes
+- Monitoreo y verificación automatizados
+- Workflows profesionales para desarrollo
 
 ---
 ![Image](./assets/imagenes/00-trixie.png)
 
 **🚀 ¡Listo para desarrollo profesional con DWM-Qtile integrado!**
 
+
+
 ---
 
-## 📄 Licencia
 
 **GNU General Public License v3.0**
 
@@ -466,3 +473,6 @@ master-dev logs system               # Ver logs detallados
     but WITHOUT ANY WARRANTY; without even the implied warranty of
     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
     GNU General Public License for more details.
+
+
+
